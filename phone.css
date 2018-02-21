@@ -1,0 +1,26 @@
+/* make all buttons 20 by 20 pixels with white text and green background and a 10 pixel margin */
+button {
+  background: blue;
+  color: #ccc;
+  margin: 5px; }
+
+.tab {
+  background: #ccc;
+}
+
+#alerty {
+background: orange;
+color: black;
+display:none;
+
+
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}

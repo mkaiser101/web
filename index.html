@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Basic Phone App</title>
+		<link rel="stylesheet" href="phone.css">
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmN9w" crossorigin="anonymous">
+	</head>
+	<body>
+	<div id="links">
+		<h3>Blog Links  </h3>
+		<button class="tab" id="dial_button">Dialer</button>
+		<button class="tab" id="contact_button">Contacts</button>
+		<a href="http://mattkaiser.me" class="button">e</a>
+		<a href="http://mattkaiser.me" class="button">About me</a>
+
+	</div>
+	<div id="content">
+
+		<div id="contacts_page">
+			Contacts
+		</div>
+		<div id="add_page">
+			Add Contacts
+			<br>
+
+				<label for="name_space">Name</label>
+				<input id="name_space" placeholder="Jane Smith">
+				<br><br>
+				<label for="number_space">Phone #</label>
+				<input id="number_space" placeholder="720-555-5555">
+				<br><br>
+				<label for="email_space">E-mail</label>
+				<input id="email_space" placeholder="jane.smith@gmail.com">
+
+			<br>
+			<div id="yo">
+			<button class="alertbutton" id="button_add">Add</button>
+		</div>
+		<div id="alerty" role="alert">
+			<p> What good yo</p>
+		</div>
+
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="phone.js"></script>
+	</body>
+</html>
