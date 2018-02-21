@@ -16,3 +16,14 @@ display:none;
 
 
 }
+
+#content{
+background: #008fd5;
+color: white;
+
+}
+
+#food{
+  background: white;
+  color: black;
+}
