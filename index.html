@@ -1,41 +1,45 @@
 <html lang= "en">
 	<head>
-		<title>Basic Phone App</title>
+		<title>Matt's Food Blog</title>
 		<link rel="stylesheet" href="phone.css">
 		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmN9w" crossorigin="anonymous">
 	</head>
 	<body>
 	<div id="links">
 		<h3>Blog Links  </h3>
-		
 		<a href="http://mattkaiser.me/web/" class="button">Home</a>
 		<a href="http://mattkaiser.me" class="button">About me</a>
-
+		<a href="https://github.com/mkaiser101/web" class="button">Code used to make this blog</a>
 	</div>
 	<div id="content">
-
-		<div id="contacts_page">
-			Contacts
-		</div>
-		<div id="add_page">
-			Add Contacts
+		<div id ="Food">
+			<h3>Food of the week: Ramen</h3>
 			<br>
+			<p>There are quite a few popular brands of Ramen with college students.  For most college students the most popular brands of Ramen are Top Ramen and Maruchan.  However in todays blog post I will be focusing on a lesser popular brand of Ramen noodles Nongshim Ramen.</p>
+			<span class="avatar"><img src="ramen.PNG" alt="" /></imagespan>
+				<br>
 
+			<a href="https://www.google.com/search?q=ramyun&rlz=1C1CHBF_enUS773US773&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiE7ZXs5bfZAhWBy1MKHe8OCswQ_AUICigB&biw=1920&bih=917#imgrc=9XFfjlmRhid0SM:" class="button">Image Credit</a>
+		</div>
+
+
+		<div id="formthinge">
+			<br>
+			<h3>Comments for the Blogger</h3>
+			<div id="alerty" role="alert">
+				<p> Sorry, posting comments is currently disabled.  Try again later.</p>
+			</div>
 				<label for="name_space">Name</label>
-				<input id="name_space" placeholder="Jane Smith">
+				<input id="name_space" placeholder="Matt Kaiser">
 				<br><br>
-				<label for="number_space">Phone #</label>
-				<input id="number_space" placeholder="720-555-5555">
+				<label for="comment_space">Comment</label>
+				<input id="comment_space" placeholder="I love this blog post">
 				<br><br>
 				<label for="email_space">E-mail</label>
-				<input id="email_space" placeholder="jane.smith@gmail.com">
-
+				<input id="email_space" placeholder="matt@kaiser.com">
 			<br>
 			<div id="yo">
 			<button class="alertbutton" id="button_add">Add</button>
-		</div>
-		<div id="alerty" role="alert">
-			<p> What good yo</p>
 		</div>
 
 	</div>
